@@ -214,7 +214,7 @@ h3 {
     width: 20%;
     border-bottom: 1px solid black;
 }
-
+.content-left,
 .content-center,
 .content-right {
     height: 435px;
@@ -223,4 +223,35 @@ h3 {
 .webinfo p {
     font-size: 18px;
     margin-top: 60px;
+}
+/* HR */
+hr {
+    margin-top: 40px;
+}
+/*TEST INFO*/
+.testinfo {
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 500px;
+    background-image: url('./img/mountain.svg');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+}
+.testinfo .container {
+    position: relative;
+    height: 100%;
+}
+.testinfo .testinfo-text {
+    position: absolute;
+    right: 0;
+    top: 5%;
+}
+
+.testinfo .testinfo-text h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.testinfo .testinfo-text p {
+    margin: 15px 0;
 }
