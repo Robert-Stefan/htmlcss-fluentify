@@ -260,6 +260,7 @@ hr {
     position: relative;
     height: 130px;
     background-color: #d3d3d3;
+    
 }
 
 .footerindex h2 {
@@ -273,4 +274,15 @@ hr {
     right: 8%;
     top: 50%;
     transform: translateY(-50%);
+}
+/*HELP BTN*/
+.help {
+    position: fixed;
+    right: 1%;
+    bottom: -5px;
+}
+
+.help a {
+    text-decoration: none;
+    color: white;
 }
