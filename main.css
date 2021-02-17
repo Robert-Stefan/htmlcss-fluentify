@@ -255,3 +255,22 @@ hr {
 .testinfo .testinfo-text p {
     margin: 15px 0;
 }
+/*FOOTER*/
+.footerindex {
+    position: relative;
+    height: 130px;
+    background-color: #d3d3d3;
+}
+
+.footerindex h2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding-top: 7%;
+}
+
+.footer-right {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
