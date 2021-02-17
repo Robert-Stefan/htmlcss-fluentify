@@ -193,9 +193,34 @@ h3 {
 .content-right {
    width: 30%;
 }
+/* BORDER BOTTOM*/  
 
 .content-left,
 .content-center,
 .content-right {
     text-align: center;
+    position: relative;
+    z-index : 1;
+}
+
+.content-left h3::after,
+.content-center h3::after,
+.content-right h3::after {
+    content: "";
+    position: absolute;
+    right: 40%;
+    bottom: 27%;
+    height: 1px;
+    width: 20%;
+    border-bottom: 1px solid black;
+}
+
+.content-center,
+.content-right {
+    height: 435px;
+}
+
+.webinfo p {
+    font-size: 18px;
+    margin-top: 60px;
 }
