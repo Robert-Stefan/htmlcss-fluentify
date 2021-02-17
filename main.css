@@ -138,3 +138,21 @@ h1, h2, h3, h4 {
     font-size: 48px;
     margin-bottom: 30px;
 }
+/* DESCRIPTION */
+.description {
+    text-align: center;
+    height: 150px;
+    background-color: #d3d3d3;
+    
+}
+
+.description h1 {
+    color: black;
+    font-size: 30px;
+    line-height: 70px;
+    padding-top: 20px;
+}
+
+.description p {
+    font-size: 20px;
+}
