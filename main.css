@@ -67,7 +67,7 @@ h1, h2, h3, h4 {
 
 }
 
-.btn .btn-big {
+.btn.btn-big {
     padding: 20px;
 }
 
@@ -114,7 +114,7 @@ h1, h2, h3, h4 {
 /*JUMBOTRON*/
 .jumbotron {
     height: 480px;
-    background-image: url('./img/test.png');
+    background-image: url('./img/background-header.png');
     background-color: #0d325a;
     background-size: 1000px;
     background-repeat: no-repeat;
