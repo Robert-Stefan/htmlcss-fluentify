@@ -1,0 +1,140 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #8b8b8b;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+
+/* UTILITIES */
+
+/*Layout*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* Menu */
+.menu-inline li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-inline li:last-child {
+    margin-right: 0;
+}
+
+/*Buttons */
+.btn {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.btn.btn-green {
+    background: #7cbb01;
+    border: 1px solid transparent;
+
+}
+
+.btn .btn-big {
+    padding: 20px;
+}
+
+/* MAIN HEADER */
+.main-header {
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #0d325a;
+}
+
+.main-header .logo {
+    width: 15%;
+}
+
+.main-header .logo img {
+    vertical-align: middle;
+}
+
+.main-header .nav-center {
+    width: 45%;
+}
+
+.main-header .nav-right {
+    width: 40%;
+    text-align: right;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-header a:not(.btn):hover {
+    color: red;
+}
+
+.main-header a.btn  {
+    line-height: 1;
+}
+
+/* MAIN */
+
+/*JUMBOTRON*/
+.jumbotron {
+    height: 480px;
+    background-image: url('./img/test.png');
+    background-color: #0d325a;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 115% 110%;
+}
+
+.jumbotron .container {
+    position: relative;
+    height: 100%;
+}
+
+.jumbotron .jumbotron-text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.jumbotron .jumbotron-text h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
